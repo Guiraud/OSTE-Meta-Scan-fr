@@ -1,0 +1,484 @@
+   37  pip3 install Pillow\n
+   38  python3 Metascan.py
+   39  pip3 install matplotlib
+   40  python3 Metascan.py
+   41  chisel client http://home.mehdiguiraud.info 3333
+   42  brew install chisel
+   43  chisel client http://home.mehdiguiraud.info 3333
+   44  chisel client http://home.mehdiguiraud.info 3333
+   45  sudo -s 
+   46  cd /usr/local/opt/chisel
+   47  ls
+   48  glow 
+   49  cd ..
+   50  cd ~/Documents/Greta/secu
+   51  history > secu/OSTE-Meta-Scan-fr/history-arm.txt
+   52  cd ..
+    1  brew update 
+    2  brew upgrade 
+brew install vagrant@2.3.0
+vagrant -v
+brew install --cask vagrant-vmware-utility\
+
+ln -s /Applications/VMWare\ Fusion\ Tech\ Preview.app /Applications/VMWare\ Fusion.app
+sudo launchctl unload -w /Library/LaunchDaemons/com.vagrant.vagrant-vmware-utility.plist
+sudo lsof -i -P | grep LISTEN | grep 'vagrant-v'
+sudo lsof -i -P | grep LISTEN | grep 'vagrant-v'
+ssh mehdi@192.168.1.52
+ssh mehdi@192.168.1.52
+ssh mguiraud@192.168.1.18
+ssh mguiraud@192.168.1.199
+ssh mguiraud@192.168.1.3
+cd Documents/Projets
+ls
+cd ../Projets\ Journalistique
+ls -l
+cd EMI
+ls
+wget git@github.com:lumiere-video/lumiere-video.github.io.git
+git clone git@github.com:lumiere-video/lumiere-video.github.io.git
+showmount -e 192.168.1.55
+ssh mguiraud@192.168.1.18
+exit
+ssh pi@192.168.1.3
+cd .ssh
+grep 192.168.1.3
+grep 192.168.1.3 known_hosts
+sed '/192.168.1.3/d' known_hosts
+sed -i '/192.168.1.3/d' known_hosts
+grep -n '/192.168.1.3/d' known_hosts
+grep -n '192.168.1.3' known_hosts
+vim +200 known_hosts
+ssh pi@192.168.1.3
+ls
+ssh -i id_dsa pi@192.168.1.3
+ssh -i id_dsa.pub pi@192.168.1.3
+ssh -i id_ecdsa pi@192.168.1.3
+ssh -i id_rsa pi@192.168.1.3
+ssh -i id_ed25519 pi@192.168.1.3
+ssh -i id_ed25519 rlogin 192.168.1.3
+ssh -i id_ed25519 rlogin 192.168.1.199
+ssh -i id_ed25519 pi@192.168.1.199
+ssh mguiraud@192.168.1.18
+sudo -s
+brew install mc
+cd /Volumes
+mv Elements old-Ele
+sudo mv Elements old-Ele
+sudo mv old-Ele/OLDs ~/Documents/
+mc
+sudo mc
+sudo -s
+ls
+cd
+ext4fuse --help
+brew install ext4fuse
+df -h
+ls
+cd ext4_mount
+mount
+sudo ./ext4fuse /dev/disk4 ~/ext4_mount -o allow_other
+cd Documents/ext4fuse
+sudo ./ext4fuse /dev/disk4 ~/ext4_mount -o allow_other
+sudo ./ext4fuse /dev/disk5 ~/ext4_mount -o allow_other
+sudo ./ext4fuse /dev/disk5s5 ~/ext4_mount -o allow_other
+ls -l
+ls -l ~/
+umount ~/ext4_mount
+sudo umount ~/ext4_mount
+sudo ./ext4fuse /dev/disk5s5 ~/ext4_mount -o allow_other
+mount
+cd ~/ext4_mount
+byobu
+exit
+ss
+brew install ss
+ifconfig
+sudo -s
+find -name prepa_lvm
+find . -name prepa_lvm
+ssh mguiraud@192.168.1.55
+ssh mehdi@192.168.1.55
+ssh mehdi@192.168.1.55
+ssh-copy-id -i .ssh/id_ecdsa.pub mehdi@192.168.1.55
+ssh mehdi@192.168.1.55
+brew install ext4fuse
+brew install --cask macfuse
+diskutil list
+mkdir ext4fuse
+mount /dev/disk4s5 /Users/mguiraud/ext4fuse
+ext4fuse /dev/disk4s5 /Users/mguiraud/ext4fuse
+brew install ext4fuse
+ls
+vagrant up --provider vmware
+vagrant up --provider vmware_fusion
+brew install vmware
+brew install --cask caskroom/cask/vagrant-vmware-utility
+brew install --cask caskroom/cask/vmware-fusion
+brew install --cask caskroom/cask/vmware-fusion
+exit
+mc
+cd Documents
+wget https://cloudron.io/cloudron-setup
+cat cloudron-setup
+cat .ssh/config | grep host
+cd 
+cat .ssh/config | grep host
+cat .ssh/config | grep Hostname
+brew install cloudron
+ssh proxy.local
+ssh yunohost.local
+ssh proxy.local
+ssh yunohost.local
+ssh proxy.local
+ssh proxy.local
+ssh proxy.local
+ssh mehdi@192.168.1.52
+ssh mehdi@192.168.1.52
+ssh mehdi@kali
+sudo vim /etc/hosts
+sudo vim /etc/hosts
+sudo -s
+ssh-copy-id -i .ssh/id_ecdsa.pub mehdi@192.168.1.52
+ssh mehdi@192.168.1.52
+ssh mehdi@192.168.1.52
+ssh mehdi@192.168.1.52
+sudo vim .zshrc
+source .zshrc
+arm
+arch
+arch -arm64
+source .zshrc
+arm 
+arm exit
+ssh pi@192.168.1.18
+ssh mguiraud@192.168.1.18
+ssh dashboard@192.168.1.18
+ssh joplin@192.168.1.18
+ssh mguiraud@192.168.1.199
+ssh mguiraud@192.168.1.12
+ssh mehdi@192.168.1.12
+ssh mehdi@192.168.1.55
+ssh mguiraud@192.168.1.18
+ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no mguiraud@192.168.1.18
+sshsd
+sshs
+brew install sshs
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install byobu sshs
+sshs
+ls
+ls -a
+cd .ssh
+ls
+cat config
+byobu
+ssh proxy
+ssh proxy.local
+ssh proxy.local
+ssh proxy.local
+ssh placedelinfo.local
+ssh 192.168.1.199
+ssh 192.168.1.18
+byobu
+ssh pi@192.168.1.3
+vim +209 /Users/mguiraud/.ssh/known_hosts
+ssh pi@192.168.1.3
+vim +208 /Users/mguiraud/.ssh/known_hosts
+ssh pi@192.168.1.3
+vim +204 /Users/mguiraud/.ssh/known_hosts
+ssh pi@192.168.1.3
+ssh admin@yunohost.local
+ssh root@yunohost.local
+ssh admin@yunohost.local
+ssh admin@yunohost.local
+ssh root@yunohost.local
+ssh mguiraud@192.168.1.71
+cd Documents/gitlab/mehdiguiraud-info
+cd .git
+ls
+cd ..
+cd ../make_git_flow
+git pull
+cd ..
+rm -fr make_git_flow
+git clone git@gitlab.com:Guiraud/make_git_flow.git
+cd mehdiguiraud-info
+grep cluster ~/.ssh/config
+grep -b3 cluster ~/.ssh/config
+git remote add production mehdiguid@ssh.cluster014.hosting.ovh.net:website.git
+sshs
+git remote add production mehdiguid@ssh.cluster014.hosting.ovh.net:mehdiguiraud.info.git
+vim .git/config
+git remote add production mehdiguid@ssh.cluster014.hosting.ovh.net:mehdiguiraud.info.git
+git pull
+git push origin production
+git push production
+git push --help
+git push -f production
+sshs
+cd cv
+cd www
+cd cv
+vim index.php
+git add .
+git commit -m "erreur d'envoie de mail local"
+git config --global --edit
+git commit -m "erreur d'envoie de mail local"
+git add .
+git commit -m "erreur d'envoie de mail local"
+git push
+git push production
+cd Documents
+mkdir -p Vagrant
+cd Vagrant
+cd Va
+vagrant init gyptazy/ubuntu22.04-arm64
+vagrant up
+vagrant up --provider vmware_fusion
+vagrant plugin list
+vagrant up --provider vmware_desktop
+rm -fr Vagrantfile
+vagrant init generic/debian12
+vagrant up --provider vmware_desktop
+sudo vagrant up --provider vmware_desktop
+vagrant plugin search vmware
+vagrant plugin install vagrant-parallels
+sudo vagrant plugin install vagrant-parallels
+sudo vagrant plugin install vagrant-docker-compose
+sudo vagrant plugin install vagrant-sshfs
+sudo vagrant plugin install vagrant-guest-ansible
+sudo vagrant plugin install vagrant-vmware-dhcp
+sudo vagrant plugin install vagrant-plugins
+sudo vagrant plugin install vagrant-ansible-local
+sudo vagrant plugin install vagrant-libvirt
+gem list --remote vagrant-
+gem list --remote vagrant- | grep apple
+gem list --remote vagrant- | grep macos
+gem list --remote vagrant- | grep vmware
+sudo vagrant plugin install vagrant-vmware-fusion 
+vagrant plugin install vagrant-vmware-fusion 
+sudo vagrant plugin install vagrant-vmware-fusion 
+sudo chown -R $(whoami) ~/.vagrant.d\
+
+xcode-select --install\
+
+vagrant plugin install vagrant-vmware-fusion\
+
+softwareupdate --all --install --force\
+
+df -h
+brew install Caskroom/cask/osxfuse
+brew install Caskroom/cask/macfuse
+brew install ext4fuse
+brew rm --cask osxfuse  
+cd Documents
+git clone https://github.com/gerard/ext4fuse.git && cd "$(basename "$_" .git)"
+make
+brew install pkg-config
+make
+mkdir ~/ext4_mount
+diskutil list
+sudo ./ext4fuse /dev/disk5 ~/ext4_mount -o allow_other
+sudo ./ext4fuse /dev/disk5s( ~/ext4_mount -o allow_other
+sudo ./ext4fuse /dev/disk5s5 ~/ext4_mount -o allow_other
+sudo -s
+cd
+cd .ssh
+ls *.pub
+cat id_ecdsa.pub
+ssh mguiraud@192.168.1.3
+ssh mguiraud@192.168.1.3
+ssh mguiraud@192.168.1.18
+ssh mguiraud@192.168.1.3
+byobu
+exit
+brew install --cask vscodium
+brew reinstall --cask vscodium
+brew reinstall --cask vscodium
+brew install gparted
+brew install extfuse
+brew install fuse
+df -h
+exit
+ssh mehdi@192.168.1.12
+ssh-keygen -t ecdsa
+ssh-copy-id -i .ssh/id_ecdsa.pub mehdi@192.168.1.12
+alias vm="ssh 'mehdi@192.168.1.12'"
+vm
+sudo -s
+exit
+sshs
+sshs
+ssh mguiraud@192.168.1.199
+ssh mguiraud@192.168.1.3
+ssh mguiraud@192.168.1.3
+ssh mguiraud@192.168.1.3
+ssh mguiraud@192.168.1.3
+ssh admin@192.168.1.3
+ssh mguiraud@192.168.1.199
+cat .ssh/id_ecdsa.pub
+ssh freebox@192.168.1.117
+sshs
+cd Documents
+xs gitlab/mots_incluzor
+cd gitlab/mots_incluzor
+cd ../website/
+ls -l
+cd ..
+rm -fr website
+git clone git@gitlab.com:incluzor-e/mots_incluzor.git
+git clone git@gitlab.com:incluzor-e/website.git
+rm -fr mots_incluzor
+git clone git@gitlab.com:incluzor-e/mots_incluzor.git
+cd mots_incluzor
+	git remote production  ic<z_mots@mots.incluzor.org
+	git remote production  icz_mots@mots.incluzor.org
+	git remote production add icz_mots@mots.incluzor.org
+	git remote add production icz_mots@mots.incluzor.org
+cd ../website
+sshs
+git remote add production icz_website@incluzor.org
+git push production 
+cd ../mots_incluzor
+	git push production
+ssh icz_mots@mots.incluzor.org
+cd ..
+sshs
+exit
+head -18 /etc/logrotate.conf
+cd /etc
+sudo -s
+ssh 192.168.1.19
+ssh 192.168.1.18
+ssh 192.168.1.18
+cd
+brew install ansible
+brew tap hashicorp/tap\
+brew install hashicorp/tap/hashicorp-vagrant
+vagrant init bento/ubuntu-20.04-arm64
+cd Documents/Greta
+mkdir ansible
+mkdir control
+cd control
+vagrant init bento/ubuntu-20.04-arm64
+vagrant up
+vagrant up --provider=vmware
+vagrant up --provider=virtualbox
+vagrant up --provider=virtualbox
+brew install qemu
+agrant plugin install vagrant-qemu
+vagrant plugin install vagrant-qemu
+sudo vagrant plugin install vagrant-qemu
+vagrant init -m perk/ubuntu-2204-arm64
+vagrant up --provider qemu
+vagrant up --provider utm
+vagrant up --provider virtualbox
+arch -arm64
+arch --arm64
+arch
+arch --help
+arch -h
+arch ? 
+arch --help
+arch 
+man arch
+arch --arch_name arm64
+arch --arm64
+arch -arch arm64
+arch -arch arm64
+arch -arm64
+sudo arch -arch arm64 -c vagrant plugin install vagrant-qemu
+vagrant up --provider qemu
+history
+ls -l
+rm -fr Vagrantfile
+vagrant init -m perk/ubuntu-2204-arm64
+ls -l
+vagrant up
+ssh -X mehdi@192.168.1.52
+smbclient -k -L 192.168.1.18
+brew install smbclient
+brew install samba-client
+brew install samba
+ssh 192.168.1.199
+ls -lot | head
+mount 192.168.1.55://nfs/REP1 nfsREP1
+sudo mount 192.168.1.55://nfs/REP1 nfsREP1
+sudo mount 192.168.1.55:nfs/REP1 nfsREP1
+sudo mount -t nfs 192.168.1.55:nfs/REP1 nfsREP1
+sudo mount mount -o rw -t nfs 192.168.1.55:nfs/REP1 nfsREP1
+sudo mount -o rw -t nfs 192.168.1.55:nfs/REP1 nfsREP1
+sudo mount -t nfs -o resvport 192.168.1.55:nfs/REP1 nfsREP1
+sudo mount -t nfs -o resvport 192.168.1.55:nfs/REP2 nfsREP2
+sudo mount -t nfs -o resvport 192.168.1.55:nfs/REP3 nfsREP3
+touch nfsREP1/fic_mac
+touch nfsREP2/fic_mac
+touch nfsREP3/fic_mac
+id
+ssh mguiraud@192.168.1.199
+ssh mguiraud@192.168.1.3
+exit
+cd Downloads
+ls -lot | head
+ls -lot | head
+mv Cour?.zip ~/Documents/Greta
+mv Cours?.zip ~/Documents/Greta
+mv Ethical-Hacker-Kali.utm.zip ~/Documents/Greta
+mv Cybersecurity_Lab_VM_Workstation_20230210_utm_tar.gz ~/Documents/Greta
+cd  ~/Documents/Greta
+ls -l
+tar zxvf Cybersecurity_Lab_VM_Workstation_20230210_utm_tar.gz
+unzip Ethical-Hacker-Kali.utm.zip
+unzip Cours*.zip
+unzip Cours2.zip
+unzip Cours3.zip
+unzip Cours4.zip
+unzip Cours1.zip
+cd ..
+ssh mguiraud@192.168.1.18 -t 'apt update && apt upgrade -y'
+ssh mguiraud@192.168.1.18 -t 'sudo apt update && sudo apt upgrade -y'
+ssh mguiraud@192.168.1.18 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+ssh mguiraud@192.168.1.3 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+ssh mguiraud@192.168.1.199 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+ssh mguiraud@192.168.1.199 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+ssh mguiraud@192.168.1.199 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+grep host ~/.ssh/config 
+grep Hostname ~/.ssh/config 
+ssh debian@51.83.75.95 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+grep Hostname ~/.ssh/config 
+grep Hostname ~/.ssh/config | tr -f2
+ssh debian@92.222.71.169 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+grep Hostname ~/.ssh/config | tr -f2
+grep Hostname ~/.ssh/config
+ssh root@77.243.85.106 -t 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+grep Hostname ~/.ssh/config | sort | uniq
+grep Hostname ~/.ssh/config | sort | uniq | sed -i 's/	Hostname//'
+grep Hostname ~/.ssh/config | sort | uniq | sed 's/	Hostname//'
+exit
+cd  Documents
+sudo chown -R 777 OLDs
+exit
+cd ../
+mkdir Machine1
+cd Machine1
+vagrant init gyptazy/ubuntu22.04-arm64
+vagrant up
+vim Vagrantfile 
+vim Vagrantfile 
+vagrant up
+vim Vagrantfile 
+vagrant up
+vim Vagrantfile 
+vagrant up
+vagrant plugin install vagrant-vmware-fusion
+sudo vagrant plugin install vagrant-vmware-fusion
+exit
+du -s * | sort -n
+cd mehdi
+ls -la
+df -h
+ssh 192.168.1.71
+ssh 192.168.1.71
+ssh 192.168.1.71
+ssh 192.168.1.3
